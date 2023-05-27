@@ -15,10 +15,10 @@ const RouteSwitch = () => {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/my-website/" element={<Home />} />
-          <Route path="/my-website/about/" element={<About />} />
-          <Route path="/my-website/projects/" element={<Projects />} />
-          <Route path="/my-website/blog/" element={<Blog />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </BrowserRouter>
 
