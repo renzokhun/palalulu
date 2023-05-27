@@ -13,16 +13,16 @@ function Header() {
     return (
       <nav className="header">
         <li className='default-header'>
-          <a href="/"><i class="fa-solid fa-house"></i>Home</a>
+          <a href="/my-website/"><i class="fa-solid fa-house"></i>Home</a>
         </li>
         <li className='default-header'>
-            <a href="/about"><i class="fa-regular fa-user"></i>About</a>
+            <a href="/my-website/about"><i class="fa-regular fa-user"></i>About</a>
         </li>
         <li className='default-header'>
-            <a href="/projects"><i class="fa-solid fa-laptop-code"></i>Projects</a>
+            <a href="/my-website/projects"><i class="fa-solid fa-laptop-code"></i>Projects</a>
         </li>
         <li className='default-header'>
-            <a href="/blog"><i class="fa-solid fa-blog"></i>Blog</a>
+            <a href="/my-website/blog"><i class="fa-solid fa-blog"></i>Blog</a>
         </li>
 
         <li className='mobile-dropdown-menu'>
@@ -30,16 +30,16 @@ function Header() {
             {isDropdownOpen && (
               <ul className="dropdown-menu">
                 <li>
-                  <a href="/"><i class="fa-solid fa-house"></i>Home</a>
+                  <a href="/my-website/"><i class="fa-solid fa-house"></i>Home</a>
                 </li>
                 <li>
-                    <a href="/about"><i class="fa-regular fa-user"></i>About</a>
+                    <a href="/my-website/about"><i class="fa-regular fa-user"></i>About</a>
                 </li>
                 <li>
-                    <a href="/projects"><i class="fa-solid fa-laptop-code"></i>Projects</a>
+                    <a href="/my-website/projects"><i class="fa-solid fa-laptop-code"></i>Projects</a>
                 </li>
                 <li>
-                    <a href="/blog"><i class="fa-solid fa-blog"></i>Blog</a>
+                    <a href="/my-website/blog"><i class="fa-solid fa-blog"></i>Blog</a>
                 </li>
               </ul>
           )}
