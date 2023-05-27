@@ -50,13 +50,16 @@ footer {
         top: 0;
         display: flex;
         justify-content: end;
-        gap: 3rem;
         padding: 1rem;
-        padding-right: 5rem;
+        padding-right: 3rem;
         list-style: none;
         font-size: 1.3rem;
-        backdrop-filter: blur(50px);
+        background: hsl(254 22% 20% / 0.95);
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    .header li {
+        margin: 0 2rem;
     }
 
     .header i {
@@ -92,7 +95,7 @@ footer {
         left: 0;
         width: 100%;
         padding: 1rem;
-        backdrop-filter: blur(50px);
+        background: hsl(254 22% 20% / 0.95);
     }
 
     .header .dropdown-menu {
@@ -242,7 +245,10 @@ footer {
 .about-socials {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+}
+
+.about-socials a {
+    margin: 0 0.75rem;
 }
 
 /* PROJECTS */
@@ -258,18 +264,20 @@ footer {
     .projects-wrapper {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         padding: 0 5rem;
         padding-bottom: 3rem;
-        gap: 2rem;
         border-radius: 16px;
     }
 
     .project {
         flex: 1 1 45%;
-        max-width: 50%;
+        max-width: 45%;
         padding: 2rem;
         font-size: 1.25rem;
         line-height: 2rem;
+        margin: 1rem;
+        margin-top: 0.5rem;
 
         border: 1px solid var(--color-1);
         box-shadow: 5px 5px 5px var(--color-1);
@@ -332,11 +340,11 @@ footer {
     justify-content: center;
     padding: 0.5rem;
     padding-bottom: 1.5rem;
-    gap: 2rem;
 }
 
 .project-links a {
     padding: 0.15rem 1rem;
+    margin: 0 1rem;
     border: 1px solid var(--color-2);
     border-radius: 12px;
     background-color: var(--color-2);
@@ -426,8 +434,13 @@ footer {
 
 .footer-socials {
     display: flex;
-    gap: 1rem;
 }
+
+.footer-socials a {
+    margin: 0 1rem;
+    margin-right: 0;
+}
+
 
 @media (max-width: 480px) {
     .footer-socials {
