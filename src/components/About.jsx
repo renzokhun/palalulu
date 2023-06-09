@@ -8,8 +8,7 @@ function About() {
           <div className='about'>
             <div className='title'><span>Who I am</span></div><br />
 
-            Hi everyone! My name is <span>Ralvinc</span>.<br /> 
-            I am relatively new to the world of coding.<br /><br />
+            Hi everyone! My name is <span>Ralvinc</span>. I enjoy creating small projects that are useful to me as a way to apply what I've learned and have fun in the learning process.<br /><br />
 
             Besides coding, a few other activities I love to do!<br /><br />
 
