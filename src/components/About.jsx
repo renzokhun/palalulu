@@ -12,9 +12,11 @@ function About() {
 
             Besides coding, a few other activities I love to do!<br /><br />
 
-            <li>Watching anime</li> 
-            <li>Reading manga/light novel</li> 
-            <li>Video games (League of Legends, Genshin Impact, Pokemon)</li>
+            <li>Watching <span>anime</span></li> 
+            <li>Reading <span>manga/light novel</span></li> 
+            <li><span>Video games</span> (League of Legends, Genshin Impact, Pokemon)</li><br />
+
+            On another note, my friend and I currently run <a href="https://www.facebook.com/GetGoodTS" target="_blank"><b>GetGood Tutorial Services (GGTS)</b></a>, a small online tutoring service that specializes in math and engineering mechanics subjects.
           </div>
 
           <img src={about_image} className='about-image' />
