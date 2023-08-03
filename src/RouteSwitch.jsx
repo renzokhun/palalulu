@@ -8,6 +8,9 @@ import Blog from "./components/Blog";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+import Blog_1 from "./components/blog_posts/1";
+import Blog_2 from "./components/blog_posts/2";
+
 const RouteSwitch = () => {
   return (
     <div>
@@ -19,6 +22,8 @@ const RouteSwitch = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/1" element={<Blog_1 />} />
+            <Route path="/blog/2" element={<Blog_2 />} />
         </Routes>
       </BrowserRouter>
 
