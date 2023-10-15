@@ -8,15 +8,15 @@ function About() {
           <div className='about'>
             <div className='title'><span>Who I am</span></div><br />
 
-            Hi everyone! My name is <span>Ralvinc</span>. I enjoy creating small projects that are useful to me as a way to apply what I've learned and have fun in the learning process.<br /><br />
+            Hi everyone! My name is <span>Ralvinc</span>, a newbie to the world of coding. I create small projects that align with my personal interests. This approach allows me to not only apply what I've learned, but also use the projects I create and enjoy the learning process.<br /><br />
 
             Besides coding, a few other activities I love to do!<br /><br />
 
             <li>Watching <span>anime</span></li> 
             <li>Reading <span>manga/light novel</span></li> 
-            <li><span>Video games</span> (League of Legends, Genshin Impact, Pokemon)</li><br />
+            <li><span>Video games</span> (League of Legends, Genshin Impact) - <span>feel free to add me</span>!</li><br />
 
-            On another note, my friend and I currently run <a href="https://www.facebook.com/GetGoodTS" target="_blank"><b>GetGood Tutorial Services (GGTS)</b></a>, a small online tutoring service that specializes in math and engineering mechanics subjects.
+            I am also a co-founder of <a href="https://www.facebook.com/GetGoodTS" target="_blank"><b><i>GetGood Tutorial Services (GGTS)</i></b></a>, a small online tutoring service commited to helping students excel academically. Feel free to check it out if you, or someone you know, needs help to get good <span>&#128526;</span>.
           </div>
 
           <img src={about_image} className='about-image' />

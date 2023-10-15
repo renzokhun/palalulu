@@ -531,6 +531,11 @@ footer {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
+.blog-post-wrapper .source-material {
+    font-size: 0.95rem;
+    padding-bottom: 1.5rem;
+}
+
 /* FOOTER */
 
 footer {

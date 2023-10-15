@@ -1,5 +1,6 @@
 import blog1_image from './blog_posts/images/blog_1.png';
 import blog2_image from './blog_posts/images/blog_2.png';
+import blog3_image from './blog_posts/images/blog_3.png';
 
 function Blog() {
 
@@ -8,6 +9,17 @@ function Blog() {
         <div className='blogs-title'>Blog Posts</div>
 
         <div className='blog-wrapper'>
+          <div className='blog'>
+            <div className='blog-title'>Anime I'm Currently Watching This <span>Fall 2023</span></div>
+            <div className='date'>TBA</div>
+            
+            <img src={blog3_image} />
+
+            <div className="continue-reading-button">
+              <a href="/blog/3" className="continue-reading-button">Read <i class="fa-solid fa-arrow-right"></i></a><br /><br />
+            </div>
+          </div>
+
           <div className='blog'>
             <div className='blog-title'>Anime I'm Currently Watching This <span>Summer 2023</span></div>
             <div className='date'>August 3, 2023</div>
