@@ -8,7 +8,7 @@ function Projects() {
 
     return (
       <div className='projects'>
-        <div className='projects-title'>My Recent Projects</div>
+        <div className='projects-title'>My Coding Projects</div>
 
         <div className='projects-wrapper'>
           <div className="project">
@@ -18,7 +18,7 @@ function Projects() {
               <a href="https://github.com/ralvinc/anisongs-program" target="_blank">Code</a>
             </div>
 
-            This program is the <span><b>Python-ified, improved version of the Anisongs web application</b></span>, which further simplifies adding anime themes to a user's YouTube playlist. Instead of redirecting to a YouTube page displaying the search results, this program uses <span>OAuth</span> for authentication and the <span>YouTube Data API</span> to directly add the desired video to the user's desired YouTube playlist. It eliminates extra steps and enables immediate playlist management.<br /><br />
+            This program is the <span><b>Python-ified, improved version of the Anisongs web application</b></span>, which further simplifies adding anime themes to a user's YouTube playlist. Instead of redirecting to a YouTube page displaying the search results, this program uses <span>OAuth</span> for user authentication and the <span>YouTube Data API</span> to directly add the desired video to the user's desired YouTube playlist. It eliminates extra steps and enables immediate playlist management.<br /><br />
 
             Built with: <span>Python</span>
           </div> 
@@ -31,7 +31,7 @@ function Projects() {
               <a href="https://my-website-ralvinc.vercel.app/" target="_blank">Demo</a>
             </div>
 
-            This is my <span><b>personal website</b></span> where I give a brief introduction about myself along with a display of personal projects I worked on. Additionally, it serves as a platform to share my personal thoughts and experiences related to anime.<br /><br />
+            This is my <span><b>personal website</b></span> where I give a brief introduction about myself along with a display of the coding projects I worked on. Additionally, it serves as a platform to share my personal thoughts and experiences related to anime.<br /><br />
 
             Built with: <span>HTML</span> | <span>CSS</span> | <span>Javascript (React)</span>
           </div>
@@ -44,12 +44,8 @@ function Projects() {
             </div>
 
             <b><span>MyList</span></b> is a website that enables 
-            users to manage their watch/readlist easily. Users can 
-            conveniently create new list items, specifying a name, 
-            note, action (watch, read, or both), and completion status
-            for each entry. It also provides the functionality to 
-            read, update, and delete items from the list. The website 
-            also includes user authentication.<br /><br />
+            users to manage their watch/readlist easily. Users can conveniently create new list items, specifying a name, note, action (watch, read, or both), and completion status for each entry. It also provides user authentication and the functionality to 
+            read, update, and delete items from the list. <br /><br />
 
             Built with: <span>HTML</span> | <span>CSS</span> | <span>Python (Django)</span>
           </div> 

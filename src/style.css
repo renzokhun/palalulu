@@ -376,41 +376,15 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 1046px) {
+@media (min-width: 751px) {
     .blog-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0 5rem;
+        padding: 0 7rem;
         padding-bottom: 3rem;
         border-radius: 16px;
     }
 
     .blog {
-        flex: 1 1 45%;
-        max-width: 45%;
-        padding: 2rem;
-        padding-bottom: 0;
-        font-size: 1.25rem;
-        line-height: 2rem;
-        margin: 1rem;
-        margin-top: 0.5rem;
-
-        border: 1px solid var(--color-1);
-        box-shadow: 5px 5px 5px var(--color-1);
-        border-radius: 16px;
-    }
-}
-
-@media (max-width: 1045px) {
-    .blog-wrapper {
-        padding: 0 5rem;
-        padding-bottom: 3rem;
-        border-radius: 16px;
-    }
-
-    .blog {
-        padding: 2rem;
+        padding: 2rem 3rem;
         padding-bottom: 0;
         font-size: 1.25rem;
         line-height: 2rem;
@@ -451,6 +425,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2rem;
+    padding: 0 0.5rem;
     max-width: 100%;
     height: auto;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
@@ -492,14 +467,14 @@ footer {
 @media (min-width: 751px) {
     .back-button {
         font-size: 1.5rem;
-        margin: 0 5rem;
+        margin: 0 7rem;
     }
     
     .blog-post-wrapper {
-        padding: 2rem;
+        padding: 2rem 2.5rem;
         font-size: 1.25rem;
         line-height: 2rem;
-        margin: 0 5rem;
+        margin: 0 7rem;
         margin-bottom: 3rem;
 
         border: 1px solid var(--color-1);

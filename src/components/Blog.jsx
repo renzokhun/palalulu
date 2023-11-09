@@ -11,7 +11,8 @@ function Blog() {
         <div className='blog-wrapper'>
           <div className='blog'>
             <div className='blog-title'>Anime I'm Currently Watching This <span>Fall 2023</span></div>
-            <div className='date'>TBA</div>
+            
+            <div className='date'>November 9, 2023</div>
             
             <img src={blog3_image} />
 
@@ -22,6 +23,7 @@ function Blog() {
 
           <div className='blog'>
             <div className='blog-title'>Anime I'm Currently Watching This <span>Summer 2023</span></div>
+            
             <div className='date'>August 3, 2023</div>
             
             <img src={blog2_image} />
@@ -33,6 +35,7 @@ function Blog() {
 
           <div className='blog'>
             <div className='blog-title'>Anime I'm Currently Watching This <span>Spring 2023</span></div>
+            
             <div className='date'>May 27, 2023</div>
             
             <img src={blog1_image} />
